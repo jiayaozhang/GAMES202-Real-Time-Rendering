@@ -34,6 +34,8 @@ varying highp vec3 vNormal;
 uniform sampler2D uShadowMap;
 
 varying vec4 vPositionFromLight;
+varying vec4 vPositionFromLight1;
+
 
 highp float rand_1to1(highp float x ) { 
   // -1 -1

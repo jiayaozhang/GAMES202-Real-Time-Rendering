@@ -9,9 +9,12 @@ class PhongMaterial extends Material {
             'uSampler': { type: 'texture', value: color },
             'uKs': { type: '3fv', value: specular },
             'uLightIntensity': { type: '3fv', value: lightIntensity },
+            'uLightIntensity1': { type: '3fv', value: lightIntensity },
             // Shadow
             'uShadowMap': { type: 'texture', value: light.fbo },
+            'uShadowMap1': { type: 'texture', value: light.fbo },
             'uLightMVP': { type: 'matrix4fv', value: lightMVP },
+            'uLightMVP1': { type: 'matrix4fv', value: lightMVP },
 
         }, [], vertexShader, fragmentShader);
     }

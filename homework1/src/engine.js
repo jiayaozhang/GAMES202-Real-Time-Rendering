@@ -50,6 +50,13 @@ function GAMES202Main() {
 	const directionLight = new DirectionalLight(5000, [1, 1, 1], lightPos, focalPoint, lightUp, true, renderer.gl);
 	renderer.addLight(directionLight);
 
+	let lightPos1 = [90, 90, 90];
+	let focalPoint1 = [0, 0, 0];
+	let lightUp1 = [0, 1, 0]
+	const directionLight1 = new DirectionalLight(5000, [1, 1, 1], lightPos1, focalPoint1, lightUp1, true, renderer.gl);
+	renderer.addLight(directionLight1);
+
+
 	// Add shapes
 	
 	let floorTransform = setTransform(0, 0, -30, 4, 4, 4);

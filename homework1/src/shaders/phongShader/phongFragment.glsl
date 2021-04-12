@@ -34,8 +34,11 @@ varying highp vec3 vNormal;
 #define USE_POISSON 1
 
 uniform sampler2D uShadowMap;
+uniform sampler2D uShadowMap1;
 
 varying vec4 vPositionFromLight;
+// 修改
+varying vec4 vPositionFromLight1;
 
 highp float rand_1to1(highp float x ) { 
   // -1 -1
@@ -173,15 +176,20 @@ vec3 blinnPhong() {
 void main(void) {
 
   float visibility;
-  //float  visibility_1;
-  vec3 shadowCoord = vPositionFromLight.xyz / vPositionFromLight.w * 0.5 + 0.5;
+  float  visibility_1;
   //visibility = useShadowMap(uShadowMap, vec4(shadowCoord, 1.0));
-  visibility= PCF(uShadowMap, vec4(shadowCoord, 1.0), 1.0);
- // visibility_1 = PCF(uShadowMap1, vec4(shadowCoord1, 1.0), 1.0);
+  vec3 shadowCoord = vPositionFromLight.xyz / vPositionFromLight.w * 0.5 + 0.5;
+  // 修改
+  vec3 shadowCoord1 = vPositionFromLight1.xyz / vPositionFromLight1.w * 0.5 + 0.5;
   
-  //visibility = min(visibility, visibility_1);
-
-
+  //vec3 shadowCoord1 = vPositionFromLight1.xyz / vPositionFromLight1.w * 0.5 + 0.5;
+  
+  visibility= PCF(uShadowMap, vec4(shadowCoord, 1.0), 1.0);
+  visibility_1 = PCF(uShadowMap1, vec4(shadowCoord1, 1.0), 1.0);
+  // visibility = min(visibility, visibility_1);
+  // 修改
+  visibility = visibility * visibility_1;
+  
   //visibility = PCSS(uShadowMap, vec4(shadowCoord, 1.0));
 
   vec3 phongColor = blinnPhong();
