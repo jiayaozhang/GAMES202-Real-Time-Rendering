@@ -8,4 +8,4 @@
 
 ##  Homework 1
 
-![image](https://user-images.githubusercontent.com/38579506/114175416-b34d2200-9942-11eb-89b9-595e1c74e892.png)
+![image](https://user-images.githubusercontent.com/38579506/114385931-4384a480-9b99-11eb-8f74-5af6fb64aa88.png)
