@@ -12,14 +12,13 @@
 
 
 ##  Homework 2
+![image](https://user-images.githubusercontent.com/38579506/128598418-0077334f-1cfe-4750-b2ab-d7b0021a3fb1.png)
 
-![image](https://user-images.githubusercontent.com/38579506/128598179-22d72415-4c52-46a9-8b8a-846864824a49.png)
+![image](https://user-images.githubusercontent.com/38579506/128598430-8d1f54fc-82af-464b-9152-e9e021160148.png)
 
-![image](https://user-images.githubusercontent.com/38579506/128598189-8ead230b-748b-444e-9607-e3ab4da91a22.png)
+![image](https://user-images.githubusercontent.com/38579506/128598447-ab706b0d-3992-49a7-ae36-4244cc621e22.png)
 
-![image](https://user-images.githubusercontent.com/38579506/128598198-05214c5b-db0e-4aab-b534-38265a00b040.png)
-
-![image](https://user-images.githubusercontent.com/38579506/128598205-ae83b238-e8d9-4607-b27b-2316f79c2a4a.png)
+![image](https://user-images.githubusercontent.com/38579506/128598460-0e4dc309-2eac-4720-abe1-8d7524ce0ac8.png)
 
 
 ##  Homework 3
