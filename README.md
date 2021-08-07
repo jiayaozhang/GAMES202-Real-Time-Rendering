@@ -8,7 +8,7 @@
 
 ##  Homework 1
 
-![image](https://user-images.githubusercontent.com/38579506/114385931-4384a480-9b99-11eb-8f74-5af6fb64aa88.png)
+![image](https://user-images.githubusercontent.com/38579506/128598487-89f92d59-048b-4afd-90f8-27db4e998895.png)
 
 
 ##  Homework 2
@@ -23,7 +23,7 @@
 
 ##  Homework 3
 
-![image](https://user-images.githubusercontent.com/38579506/128598285-3b110858-2cf2-45a1-b31c-3db989c50493.png)
+![image](https://user-images.githubusercontent.com/38579506/128598494-6c524bc4-a57a-419b-b3a1-1c2a69e2dd64.png)
 
 ##  Homework 4
 
